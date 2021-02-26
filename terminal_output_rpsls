@@ -1,0 +1,32 @@
+Enter number of turns:5
+
+Enter object:rock
+=>Player choose rock
+=>Computer choose lizard
+***Player wins!***
+
+Enter object:Spock
+=>Player choose Spock
+=>Computer choose lizard
+***Computer wins!***
+
+Enter object:paper
+=>Player choose paper
+=>Computer choose rock
+***Player wins!***
+
+Enter object:scissors
+=>Player choose scissors
+=>Computer choose paper
+***Player wins!***
+
+Enter object:lizard
+=>Player choose lizard
+=>Computer choose scissors
+***Computer wins!***
+
+*********Score Board*********
+No of Games Played: 5
+Player Score: 3
+Computer Score: 2
+Player wins the game over 5 turns
