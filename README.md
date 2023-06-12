@@ -1,30 +1,34 @@
-# RPSLS
-## Rock, Paper, Scissors, Lizard, Spock
+# Rock-paper-Scissors-lizard-Spock Game
 
-### Rock Paper Scissors Lizard Spock is an expansion of the game Rock, Paper, Scissors. It was created by Sam Kass and Karen Bryla, but it was popularized in an episode of the Big Bang Theory called The Lizard-Spock expansion.
+This repository contains a Python implementation of the "Rock-paper-Scissors-lizard-Spock" game. The game is an extension of the classic "Rock-paper-Scissors" and adds two additional choices (lizard and Spock) to the traditional options. The game allows a player to compete against the computer in a series of turns.
 
-## The Rules
-### 1.Scissors cuts Paper
-### 2.Paper covers Rock
-### 3.Rock crushes Lizard
-### 4.Lizard poisons Spock
-### 5.Spock smashes Scissors
-### 6.Scissors decapitates Lizard
-### 7.Lizard eats Paper
-### 8.Paper disproves Spock
-### 9.Spock vaporizes Rock
-### 10.Rock crushes Scissors
+## Introduction
 
-#### While Rock-paper-scissor-lizard-Spock has a set of ten rules that logically determine who wins a round of RPSLS, coding up these rules would require a large number (5x5=25) of if/elif/else clauses in project code. A simpler method for determining the winner is to assign each of the five choices a number:
+The "Rock-paper-Scissors-lizard-Spock" game is a variation of the popular game "Rock-paper-Scissors." It was introduced in the TV series "The Big Bang Theory" and gained popularity among fans. This Python implementation allows players to engage in the game with the computer as the opponent.
 
-  * 0 — rock
-  
-  * 1 — Spock
-  
-  * 2 — paper
-  
-  * 3 — lizard
-  
-  * 4 — scissors
-## Technologies
-### I used Python to build this project. 
+## Rules
+
+The game follows these rules:
+
+- Rock crushes lizard and scissors.
+- Paper covers rock and disproves Spock.
+- Scissors cuts paper and decapitates lizard.
+- Lizard poisons Spock and eats paper.
+- Spock smashes scissors and vaporizes rock.
+
+## Usage
+
+To play the game, follow these steps:
+
+1. Clone the repository to your local machine or download the source code files.
+2. Make sure you have Python installed on your system (version 3 or above).
+3. Run the Python script `rock_paper_scissors_lizard_spock.py` using a Python IDE or the command line.
+4. Enter the number of turns you want to play when prompted.
+5. In each turn, enter your choice (rock, paper, scissors, lizard, or Spock) when prompted.
+6. The game will compare your choice with the computer's random choice and determine the winner for each turn.
+7. At the end of the game, the script will display the final score and declare the overall winner.
+
+## Output
+
+<img width="431" alt="Screenshot 2023-06-12 at 10 56 34 AM" src="https://github.com/paletinaveena/RPSLS/assets/76488426/d5b6a3c5-7cd1-4e4a-ae19-847444bb3c96">
+
